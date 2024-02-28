@@ -1,4 +1,4 @@
-
+console.log("sup")
 const script = document.createElement('script');
 script.src = 'https://unpkg.com/guify@0.12.0/lib/guify.min.js';
 document.head.appendChild(script);
