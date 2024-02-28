@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         x
-// @namespace    http://tampermonkey.net/
-// @version      2024-02-22
-// @description  try to take over the world!
-// @author       You
-// @match        https://nostarve.fun/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=nostarve.fun
-// @require      https://raw.githubusercontent.com/imor/pathfinding-bower/master/pathfinding-browser.min.js
-// @grant        none
-// @run-at       document-start
-// ==/UserScript==
 
 const script = document.createElement('script');
 script.src = 'https://unpkg.com/guify@0.12.0/lib/guify.min.js';
